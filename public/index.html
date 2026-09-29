@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="10">
+
+    <title>Consumo de API do Dólar com JavaScript</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="container">
+    <h1>Valor do Dólar</h1>
+    <div class="card">
+      <span class="rotulo">Valor atual do Dólar</span>
+      <span class="valor" id="atual">Carregando...</span>
+    </div>
+
+    <div class="linha">
+      <div class="card">
+        <span class="rotulo">Maior Valor do dia</span>
+        <span class="valor alta" id="maximo">--</span>
+      </div>
+      <div class="card">
+        <span class="rotulo">Menor Valor do dia</span>
+        <span class="valor baixa" id="minimo">--</span>
+      </div>
+    </div>
+
+    <p class="atualizacao">Última atualização: <span id="data">--</span></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
